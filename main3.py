@@ -1,0 +1,6 @@
+my_list=input("Введіть перший список")
+my_list1=input("Введіть другий список")
+number=set(my_list.split())
+rebmun=set(my_list1.split())
+all_list=sorted(number & rebmun)
+print("Спільні числа у порядку зростання:", all_list)

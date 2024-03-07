@@ -1,0 +1,6 @@
+my_poslidovnist=input("Введіть послідовність чисел розділені пробілами")
+my_poslidovnist1=input("Введіть другу послідовність чисел розділені пробілами")
+number=set(my_poslidovnist.split())
+rebmun=set(my_poslidovnist1.split())
+togezer_poslidovnist=sorted(number | rebmun)
+print("Нова послідовність без дублікатів:", togezer_poslidovnist)
